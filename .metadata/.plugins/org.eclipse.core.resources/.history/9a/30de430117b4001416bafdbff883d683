@@ -1,0 +1,9 @@
+package cn.itcast.p2.wrapper.test;
+
+public class WrapperTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}

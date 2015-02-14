@@ -1,0 +1,20 @@
+package cn.itcast.p1.string.demo;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		stringDemo1();
+		stringDemo2();
+	}
+
+	/**
+	 * ÑÝÊ¾³£Á¿³Ø
+	 */
+	public static void stringDemo1() {
+		String s = "abc";
+		String s1 = "abc";
+		
+		System.out.println(s==s1);
+	}
+
+}

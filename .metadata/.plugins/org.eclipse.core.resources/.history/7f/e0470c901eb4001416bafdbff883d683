@@ -1,0 +1,26 @@
+package cn.itcast.p1.string.demo;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		stringDemo1();
+		stringDemo2();
+	}
+
+	private static void stringDemo2() {
+		String s = "abc";  //可以共享
+		String s1 = new String("s="+s);
+		String s1 = new String("s1="+s1);
+	}
+
+	/**
+	 * 演示常量池
+	 */
+	public static void stringDemo1() {
+		String s = "abc";
+		String s1 = "abc";
+		
+		System.out.println(s==s1);
+	}
+
+}

@@ -1,0 +1,14 @@
+package cn.itcast.p1.string.demo;
+
+public class StringConstructorDemo {
+
+	public static void main(String args) {
+		// TODO Auto-generated constructor stub
+		stringConstructorDemo();
+	}
+
+	private static void stringConstructorDemo() {
+		
+	}
+
+}

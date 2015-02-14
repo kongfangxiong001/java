@@ -1,0 +1,13 @@
+package cn.itcast.p1.string.demo;
+
+public class StringMethodDemo {
+
+	public static void main(String[] args) {
+		StringMethodDemo_1();
+	}
+
+	private static void StringMethodDemo_1() {
+		String s = "abcdef";
+		System.out.println("index:"+s.indexOf("k"));//≈–∂œŒª÷√ªÚ¥Ê‘⁄
+	}
+}

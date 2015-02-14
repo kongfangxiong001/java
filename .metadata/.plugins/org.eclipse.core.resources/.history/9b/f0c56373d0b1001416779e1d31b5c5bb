@@ -1,0 +1,23 @@
+package cn.itcast.p1.string.demo;
+
+public class StringConstructorDemo {
+
+	public static void main(String[] args) {
+		stringConstructorDemo2();
+		
+	}
+
+	private static void stringConstructorDemo2() {
+		char[] arr = {'w','a','p','q','x'};
+		String s  = new String(arr);
+		System.out.println(s);
+	}
+
+	public static void stringConstructorDemo() {
+		String s = new String();//µÈÐ§ÓÚString = "";
+		
+		byte[] arr = {65,69,66,67,68};
+		String s1 = new String(arr);
+		System.out.println("s1="+s1);
+	}
+}

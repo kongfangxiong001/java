@@ -1,0 +1,9 @@
+package cn.itcast.p1.string.demo;
+
+public class StringContructorDemo {
+
+	public static void main(String[] args) {
+		StringContructorDemo();
+	}
+
+}

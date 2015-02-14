@@ -1,0 +1,81 @@
+package cn.itcast.p2.wrapper.demo;
+
+public class WrapperDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 基本数据类型包装类
+		 * 8个包装类
+		 * byte			Byte
+		 * short		Short
+		 * int			Integer
+		 * long			Long
+		 * double		Double
+		 * char			Character
+		 * boolean		Boolean
+		 */
+		
+		int num;
+		System.out.println(Integer.MIN_VALUE);
+		System.out.println(Integer.toBinaryString(-6));
+		
+		int num2 = 4;
+		Integer i = new Integer(num2);
+		/*
+		 * string.vauleof 
+		 * xx + ""
+		 */
+		
+		/*
+		 * 基本类型--->字符串
+		 * 		1，基本类型数值+""
+		 * 		2，用String类的valueOf方法
+		 * 
+		 * 		3,Integer.valueOf(1234);
+		 * 字符串---->基本类型
+		 * 		1，使用包装类中的静态方法，xxx parseXxx   ******
+		 * 			如：Integer.parseInt("1234");
+		 * 			   Boolean.parseBoolean(true);
+		 *		2,如果字符串被Integer进行了对象的封装  只有int有
+		 *				可以使用另一个非静态的方法，intValue();
+		 *				Integer num = new Integer("123");
+		 *				int num2 = num.intValue(); //转成整数
+		 *		
+		 */
+		try{
+			System.out.println(Integer.parseInt("1234a"));
+		}catch(NumberFormatException e){
+			System.out.println(e.getMessage());
+		}
+		System.out.println(String.valueOf(1234));
+		
+		
+		/*
+		 * 整数具备不同进制的体现
+		 * 十进制--->其他进制
+		 * 其他进制---->十进制
+		 */
+		System.out.println(Integer.toBinaryString(60));
+		System.out.println(Integer.toHexString(60));
+		System.out.println(Integer.toOctalString(60));
+		
+		
+		System.out.println(Integer.toString(60,8));
+		
+		/*
+		 * 其他进制转十进制
+		 */
+		//Integer.parseInt(String s, int radix);
+		System.out.println(Integer.parseInt("110",2));//将110看做2进制进行转换
+		
+		
+		
+		Integer a = new Integer("3");
+		Integer a = new Integer(3);
+		
+	}
+
+}

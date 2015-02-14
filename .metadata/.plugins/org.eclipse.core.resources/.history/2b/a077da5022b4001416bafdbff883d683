@@ -1,0 +1,8 @@
+package cn.itcast.p1.string.demo;
+
+public class StringMethodDemo {
+
+	public static void main(String[] args) {
+		
+	}
+}

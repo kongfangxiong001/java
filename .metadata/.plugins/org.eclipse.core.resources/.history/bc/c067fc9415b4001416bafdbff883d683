@@ -1,0 +1,10 @@
+package cn.itcast.p2.wrapper.demo;
+
+public class WrapperDemo2 {
+
+	public static void main(String[] args) {
+		int num = 4;
+		Integer i = 4; // Integer i = new Integer(4);自动装箱，简化书写
+	}
+
+}

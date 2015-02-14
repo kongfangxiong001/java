@@ -1,0 +1,50 @@
+package cn.itcast.p1.string.demo;
+
+public class StringMethodDemo {
+
+	public static void main(String[] args) {
+		/*
+		 * 按照面向对象的思想的对字符串功能分类。
+		 * "abcd"
+		 * gb2312 nk
+		 * gbk 2w
+		 * gb18030
+		 * unicode
+		 * 
+		 */
+		stringMethodDemo_4();
+	}
+
+	private static void stringMethodDemo_4() {
+		String s = "abcdef";
+		s = s.toUpperCase();
+		s = s.toLowerCase();
+		System.out.println(s);
+	}
+
+	private static void stringMethodDemo_3() {
+		String s = "ab你";
+		byte[] b = s.getBytes();
+		for (int i = 0; i < b.length; i++) {
+			System.out.println(b[i]);
+		}
+	}
+
+	private static void stringMethodDemo_2() {
+		String s = "zhangsan. 李四.王五";
+		String[] arr = s.split("\\.");
+		for(int i=0;i<arr.length;i++){
+			System.out.println(arr[i]);
+		}
+			
+	}
+
+	private static void stringMethodDemo_1() {
+		String s = "abcdefg";
+		char[] arr = s.toCharArray();
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+
+}

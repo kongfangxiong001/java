@@ -1,0 +1,12 @@
+package cn.itcast.p1.string.demo;
+
+public class StringDemo {
+
+	public StringDemo() {
+		// TODO Auto-generated constructor stub
+		/*
+		 * String类的特点
+		 */
+	}
+
+}

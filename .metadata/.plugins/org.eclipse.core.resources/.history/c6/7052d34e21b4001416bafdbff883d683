@@ -1,0 +1,15 @@
+package cn.itcast.p1.string.demo;
+
+public class StringContructorDemo {
+
+	public static void main(String[] args) {
+		stringContructorDemo();
+	}
+
+	private static void stringContructorDemo() {
+		String s = new String();//等效于String = ""; 不等效 String s = null;
+		byte[] arr = {1,2,3,4,127}; //127以内
+		System.out.println("s1="+s1);
+	}
+
+}

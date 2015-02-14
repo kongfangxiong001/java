@@ -1,0 +1,16 @@
+package cn.itcast.p1.string.demo;
+
+public class StringConstructorDemo {
+
+	public static void main(String args) {
+		stringConstructorDemo();
+	}
+
+	private static void stringConstructorDemo() {
+		String s = new String();//µÈÐ§ÓÚString = "";
+		
+		byte[] arr = {1,2,65,69,66,67,68};
+		String s1 = new String(arr);
+	}
+
+}

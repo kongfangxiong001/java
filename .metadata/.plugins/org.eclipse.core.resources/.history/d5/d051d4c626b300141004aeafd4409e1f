@@ -1,0 +1,10 @@
+package cn.itcast.p.bean;
+
+
+public class Person {
+	public static void main(String[] args)
+	{
+		private String name;
+		private int age;
+	}
+}

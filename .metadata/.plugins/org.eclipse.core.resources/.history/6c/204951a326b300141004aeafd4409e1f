@@ -1,0 +1,5 @@
+package cn.itcast.p.bean;
+
+public class Person {
+
+}

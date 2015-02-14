@@ -1,0 +1,35 @@
+package cn.itcast.p1.string.demo;
+
+public class StringMethodDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 1、获取
+		 * 获取长度
+		 *  int length();
+		 * 根据位置获取字符
+		 * 	char charAt(int index);
+		 * 获取第一次/最后一次出现的位置
+		 *  int indexOf(int ch);
+		 * 获取字符串中的一部分字符串
+		 *  String substring(int beginIndex,int endIndex);//包含from不包含end
+		 *  2、转换
+		 *  	转成数组
+		 *  	String[] split(String regex);
+		 */
+		StringMethodDemo_2();
+	}
+
+	private static void StringMethodDemo_2() {
+		String s = "";
+	}
+
+	private static void StringMethodDemo_1() {
+		String s = "abcdef";
+		System.out.println("index:"+s.indexOf("k"));//判断位置或存在
+		System.out.println("substring:"+s.substring(1, 3));
+	}
+}
