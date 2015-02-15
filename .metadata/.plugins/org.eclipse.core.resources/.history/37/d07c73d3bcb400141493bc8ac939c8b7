@@ -1,0 +1,27 @@
+package cn.itcast.p2.stringbuffer.demo;
+
+public class StringBufferDemo {
+
+	public static void main(String[] args) {
+		/*
+		 * StringBuffer：字符串缓冲区。
+		 * 用于存储数据的容器。
+		 * 特点：
+		 * 1、可变长度
+		 * 2、定以后，可以存不同类型数据进来。
+		 * 3、长度16的数组
+		 * 
+		 * 既然是容器对象，应该具有什么功能？
+		 * 1、添加
+		 * 
+		 * 2、删除
+		 */
+		bufferMethodDemo();
+	}
+
+	private static void bufferMethodDemo() {
+		StringBuffer sb = new StringBuffer();
+		sb.append(str);
+	}
+
+}

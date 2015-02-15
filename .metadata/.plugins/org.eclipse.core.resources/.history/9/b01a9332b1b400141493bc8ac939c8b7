@@ -1,0 +1,36 @@
+package cn.itcast.p1.string.demo;
+
+
+/*
+ * 2,一个字串在整个串中出现的次数。
+ * “nbaernbatynbauinbaopnba”
+ * 思路：
+ * 需要indexOf,计数器，循环
+ * 1，使用indexOf查找子串，计数器++
+ * 2，使用indexOf从上次出现的位置查找，计数器++。
+ * 3，indexOf 返回为正整数则循环2，如果返回-1，则结束。
+ */
+public class StringTest2 {
+
+	public static void main(String[] args) {
+		String s = "nbaernbatynbauinbaopnba";
+		String sub_str = "nba";
+		int count = 0;
+		count = subStringCount(s,sub_str);
+	}
+
+	private static int subStringCount(String s, String sub_str) {
+		int pos = s.indexOf(sub_str);
+		int count = 0;
+		
+		while(pos!=-1){
+			pos = s.indexOf(sub_str);
+			count++;
+		}
+		
+		
+		return 0;
+		
+	}
+
+}

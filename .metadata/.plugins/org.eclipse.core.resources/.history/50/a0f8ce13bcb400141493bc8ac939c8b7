@@ -1,0 +1,14 @@
+package cn.itcast.p2.stringbuffer.demo;
+
+public class StringBufferDemo {
+
+	public static void main(String[] args) {
+		/*
+		 * StringBuffer：字符串缓冲区。
+		 * 用于存储数据的容器。
+		 * 特点：
+		 * 1、可变长度
+		 * 2、定以后
+		 */
+	}
+}

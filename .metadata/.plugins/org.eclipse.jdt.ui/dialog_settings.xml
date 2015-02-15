@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="false" key="delegateUpdating"/>
 	<section name="DialogBounds_OverrideMethodDialog">
 		<item value="582" key="DIALOG_WIDTH"/>
 		<item value="51" key="DIALOG_Y_ORIGIN"/>
@@ -48,7 +49,7 @@
 		<item value="574" key="DIALOG_WIDTH"/>
 		<item value="-74" key="DIALOG_Y_ORIGIN"/>
 		<item value="692" key="DIALOG_HEIGHT"/>
-		<item value="272" key="DIALOG_X_ORIGIN"/>
+		<item value="271" key="DIALOG_X_ORIGIN"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
@@ -63,7 +64,7 @@
 	<section name="ExtractMethodWizard">
 		<item value="false" key="ThrowRuntimeExceptions"/>
 		<item value="true" key="GenerateJavadoc"/>
-		<item value="2" key="AccessModifier"/>
+		<item value="1" key="AccessModifier"/>
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
@@ -74,7 +75,7 @@
 		<item value="587" key="DIALOG_WIDTH"/>
 		<item value="-123" key="DIALOG_Y_ORIGIN"/>
 		<item value="766" key="DIALOG_HEIGHT"/>
-		<item value="266" key="DIALOG_X_ORIGIN"/>
+		<item value="258" key="DIALOG_X_ORIGIN"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="NewClassWizardPage">
@@ -96,7 +97,7 @@
 		<item value="574" key="DIALOG_WIDTH"/>
 		<item value="-111" key="DIALOG_Y_ORIGIN"/>
 		<item value="748" key="DIALOG_HEIGHT"/>
-		<item value="272" key="DIALOG_X_ORIGIN"/>
+		<item value="271" key="DIALOG_X_ORIGIN"/>
 		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>

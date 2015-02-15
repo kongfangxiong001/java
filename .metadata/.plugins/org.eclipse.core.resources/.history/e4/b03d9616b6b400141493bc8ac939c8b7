@@ -1,0 +1,32 @@
+package cn.itcast.p1.string.demo;
+/*
+ * 两个字符串中最长相同的子串
+ * 思路：
+ * 	1、找出两个字符串中的最短的。
+ * 	2、最短的短串整体 逐渐缩短 ，看在长串中是否包含，包含 break，否则循环。
+ * 	3、如果缩短到长度为0还没有找到，返回“”；
+ */
+public class StringTest3 {
+
+	public static void main(String[] args) {
+		String str = "faefagawehelloworldgeagahrh";
+		String str2 = "f3tr23helloworldfaeghnv";
+		String sub_str = getLongSubStr(str,str2);
+		System.out.println(sub_str);
+		
+	}
+
+	public static String getLongSubStr(String str, String str2) {
+		
+		for(int i=0,l = str.length();i<l;i++){ //字串的长度为 str.length-i
+			for (int j = 0; j < i; j++) {
+				String substr = str2.substring(j, endIndex)
+			}
+		}
+		
+		return null;
+		
+	}
+
+
+}

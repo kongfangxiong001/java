@@ -1,0 +1,15 @@
+package cn.itcast.p2.linkedlist.demo;
+
+public class LinkedTest {
+
+	public static void main(String[] args) {
+
+	}
+}
+
+class DuiLie{
+	private LinkedList link;
+	public DuiLie() {
+		
+	}
+}

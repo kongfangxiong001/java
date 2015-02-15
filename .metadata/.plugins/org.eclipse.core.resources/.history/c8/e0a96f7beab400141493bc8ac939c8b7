@@ -1,0 +1,9 @@
+package cn.itcast.p2.linkedlist.demo;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		LinkedListDemo link = new LinkedList();
+	}
+
+}

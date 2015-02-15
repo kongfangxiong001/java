@@ -1,0 +1,13 @@
+package cn.itcast.p1.string.demo;
+
+
+/*
+ * 2,一个字串在整个串中出现的次数。
+ */
+public class StringTest2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

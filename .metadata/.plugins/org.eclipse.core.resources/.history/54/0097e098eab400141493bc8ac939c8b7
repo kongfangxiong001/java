@@ -1,0 +1,13 @@
+package cn.itcast.p2.linkedlist.demo;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		LinkedList link = new LinkedList();
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package cn.itcast.p1.string.demo;
+
+
+/*
+ * 2,一个字串在整个串中出现的次数。
+ * “nbaernbatynbauinbaopnba”
+ * 思路：
+ * 需要indexOf,计数器，循环
+ * 1，使用indexOf查找子串，计数器++
+ * 2，使用indexOf从上次出现的位置查找，计数器++。循环
+ */
+public class StringTest2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

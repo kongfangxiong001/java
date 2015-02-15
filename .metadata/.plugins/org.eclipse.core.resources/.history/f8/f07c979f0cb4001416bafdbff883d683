@@ -1,9 +1,0 @@
-package cn.itcast.p2.wrapper.demo;
-
-public class WrapperDemo {
-
-	public static void main(String[] args) {
-
-	}
-
-}

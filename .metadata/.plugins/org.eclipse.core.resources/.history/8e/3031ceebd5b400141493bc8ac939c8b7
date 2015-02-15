@@ -1,0 +1,9 @@
+package cn.itcast.p3.collection.demo;
+
+public class IteratorDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

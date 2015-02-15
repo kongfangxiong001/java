@@ -1,0 +1,38 @@
+package cn.itcast.p4.collection.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * Collection
+ * 		|--List:有序，元素有索引。元素可以重复
+ * 		|--Set：元素  无序，不重复**
+ * 
+ * List：特有的方法，可以操作角标。
+ * 1、添加
+ * 	void add(index,element);
+ * 	void add(index.collection);
+ * 2、删除；
+ * 	Object remove(index);
+ * 3、修改
+ * 	Object set(index,element);
+ * 4、获取
+ * 	Object get(index);
+ *  int indexOf(object);
+ *  int lastIndexOf(object);
+ *  List subList(from,to);
+ * 
+ */
+public class ListDemo {
+
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		show(list);
+	}
+
+	private static void show(List list) {
+		
+	}
+
+}
+

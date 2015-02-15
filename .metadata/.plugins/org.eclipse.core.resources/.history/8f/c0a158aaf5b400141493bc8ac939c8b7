@@ -1,0 +1,8 @@
+package cn.itcast.p3.arraylist.test;
+
+public class ArrayListTest {
+
+	public static void main(String[] args) {
+		
+	}
+}
