@@ -1,0 +1,8 @@
+package cn.itcast.p4.hashset.test;
+
+public class HashSetTest {
+
+	public static void main(String[] args) {
+		
+	}
+}

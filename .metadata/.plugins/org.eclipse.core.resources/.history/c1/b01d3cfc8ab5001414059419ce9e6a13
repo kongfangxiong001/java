@@ -1,0 +1,13 @@
+package cn.itcast.p4.generic.define.demo;
+
+import java.util.ArrayList;
+
+import javax.print.DocFlavor.STRING;
+
+public class GenericDemo {
+
+	public static void main(String[] args) {
+		ArrayList<String> al = new ArrayList<String>();
+	}
+
+}

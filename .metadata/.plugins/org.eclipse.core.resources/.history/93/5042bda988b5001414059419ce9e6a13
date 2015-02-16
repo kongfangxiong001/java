@@ -1,0 +1,17 @@
+package cn.itcast.p4.treeset.demo;
+
+import java.util.TreeSet;
+
+public class TreeSetOrderTest {
+
+	public static void main(String[] args) {
+		TreeSet ts = new TreeSet(new StringComparator());
+		
+		ts.add("ab");
+		ts.add("ab");
+		ts.add("ab");
+		ts.add("ab");
+		ts.add("ab");
+	}
+
+}

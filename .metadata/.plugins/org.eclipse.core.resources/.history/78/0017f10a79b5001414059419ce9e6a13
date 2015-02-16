@@ -1,0 +1,13 @@
+package cn.itcast.p4.hashset.test;
+
+import java.util.HashSet;
+
+import cn.itcast.p.been.Person;
+
+public class HashSetTest {
+
+	public static void main(String[] args) {
+		HashSet hs= new HashSet();
+		hs.add(new Person("lisi4",24));
+	}
+}

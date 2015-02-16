@@ -1,0 +1,9 @@
+package cn.itcast.p4.arraylist.test;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

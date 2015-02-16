@@ -1,0 +1,9 @@
+package cn.itcast.p4.generic.define.demo;
+
+public class GenericDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

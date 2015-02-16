@@ -1,0 +1,9 @@
+package cn.itcast.p4.hashset.test;
+
+public class LinkedHashSet {
+
+	public static void main(String[] args) {
+
+	}
+
+}

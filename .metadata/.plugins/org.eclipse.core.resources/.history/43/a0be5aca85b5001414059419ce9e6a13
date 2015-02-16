@@ -1,0 +1,7 @@
+package cn.itcast.p4.treeset.demo;
+
+import java.util.Comparator;
+
+public class ComparatorByName implements Comparator {
+
+}

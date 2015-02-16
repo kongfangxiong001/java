@@ -1,0 +1,22 @@
+package cn.itcast.p4.generic.define.demo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import javax.print.DocFlavor.STRING;
+
+public class GenericDemo {
+
+	public static void main(String[] args) {
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("abc");
+		al.add("hahah");
+//		al.add(4);  //²»ÄÜ´æ
+		Iterator it = al.iterator();
+		while(it.hasNext()){
+			String str = it.next();
+		}
+	}
+
+}
+

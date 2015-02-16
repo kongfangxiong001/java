@@ -1,0 +1,16 @@
+package cn.itcast.p4.arraylist.test;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		HashSet hs = new HashSet();
+		
+		hs.add("hehe");
+		hs.add("heihei");
+		hs.add("xixii");
+		hs.add();
+	}
+
+}

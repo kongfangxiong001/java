@@ -1,0 +1,22 @@
+package cn.itcast.p4.generic.define.demo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+/*
+ * 泛型：对操作类型进行指定。集合框架。
+ */
+
+public class GenericDemo {
+
+	public static void main(String[] args) {
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("abc");
+		al.add("hahah");
+		// al.add(4); //不能存
+		Iterator<String> it = al.iterator();
+		while (it.hasNext()) {
+			String str = it.next();
+			System.out.println(str);
+		}
+	}
+}

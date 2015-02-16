@@ -1,0 +1,10 @@
+package cn.itcast.p4.hashset.test;
+
+import java.util.HashSet;
+
+public class HashSetTest {
+
+	public static void main(String[] args) {
+		HashSet hs=HashSet new HashSet<E>();
+	}
+}

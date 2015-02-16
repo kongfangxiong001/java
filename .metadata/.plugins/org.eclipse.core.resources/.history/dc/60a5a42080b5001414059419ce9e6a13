@@ -1,0 +1,17 @@
+package cn.itcast.p4.treeset.demo;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		TreeSet ts = new TreeSet();
+		
+		ts.add("abc");
+		ts.add("fjaf");
+		ts.add("abc");
+		ts.add("abc");
+		ts.add("abc");
+	}
+
+}
